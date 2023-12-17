@@ -3,7 +3,7 @@
  * @author Tomás (a20451@alunos.ipca.pt)
  * @author Telmo (a20456@alunos.ipca.pt)
  * @brief Definition of the Carro class, derived from Veiculo
- * @version 0.1
+ * @version 0.2
  * @date 2023-12-12
  * @copyright Copyright (c) 2023
  */
@@ -12,31 +12,35 @@ using System;
 
 public class Carro : Veiculo
 {
-    #region Constructors
+    #region Construtores
 
-    /// <summary>
-    /// Initializes a new instance of the <see cref="Carro"/> class.
-    /// </summary>
-    /// <param name="id">The identifier.</param>
     public Carro(int id) : base(id)
     {
-        // TODO: Initialize Carro-specific attributes in the constructor
+        // TODO: Inicializar atributos específicos de Carro no construtor
     }
 
     #endregion
 
-    #region Methods
+    #region Métodos
 
-    /// <summary>
-    /// Realiza a manutenção específica de um carro.
-    /// </summary>
-    /// <returns>True se a manutenção for realizada com sucesso; False se o carro já estiver em manutenção.</returns>
+    public override void Ligar()
+    {
+        base.Ligar();
+        Console.WriteLine($"O carro {ID} está ligado.");
+    }
+
+    public override void Desligar()
+    {
+        base.Desligar();
+        Console.WriteLine($"O carro {ID} está desligado.");
+    }
+
     public bool RealizarManutencaoCarro()
     {
         if (!EstaEmManutencao)
         {
             Console.WriteLine($"Realizando manutenção do carro {ID}.");
-            // TODO: Implement Carro-specific maintenance logic
+            // TODO: Implementar lógica de manutenção específica de Carro
             EstaEmManutencao = true;
             return true;
         }
@@ -47,7 +51,11 @@ public class Carro : Veiculo
         }
     }
 
-    // Add more methods and properties as needed
+    #endregion
+
+    #region Outros Métodos
+
+    // Adicione mais métodos e propriedades conforme necessário
 
     #endregion
 }

@@ -3,7 +3,7 @@
  * @author Tomás (a20451@alunos.ipca.pt)
  * @author Telmo (a20456@alunos.ipca.pt)
  * @brief Definition of the ServicoManutencao class
- * @version 0.1
+ * @version 0.2
  * @date 2023-12-12
  * @copyright Copyright (c) 2023
  */
@@ -12,7 +12,7 @@ using System;
 
 public class ServicoManutencao
 {
-    #region Properties
+    #region Propriedades
 
     public DateTime DataAgendamento { get; }
     public string Descricao { get; private set; }
@@ -20,35 +20,26 @@ public class ServicoManutencao
 
     #endregion
 
-    #region Constructors
+    #region Construtores
 
-    /// <summary>
-    /// Initializes a new instance of the <see cref="ServicoManutencao"/> class.
-    /// </summary>
-    /// <param name="dataAgendamento">The data agendamento.</param>
-    /// <param name="descricao">The descricao.</param>
     public ServicoManutencao(DateTime dataAgendamento, string descricao)
     {
         DataAgendamento = dataAgendamento;
         Descricao = descricao;
         Realizado = false;
-        // TODO: Initialize other attributes in the constructor
+        // TODO: Inicializar outros atributos no construtor
     }
 
     #endregion
 
-    #region Methods
+    #region Métodos
 
-    /// <summary>
-    /// Agenda um serviço de manutenção.
-    /// </summary>
-    /// <returns>True se o serviço for agendado com sucesso; False se o serviço já tiver sido realizado.</returns>
     public bool AgendarManutencao()
     {
         if (!Realizado)
         {
             Console.WriteLine($"Agendando serviço de manutenção para {DataAgendamento.ToShortDateString()}: {Descricao}");
-            // TODO: Implement maintenance scheduling logic
+            // TODO: Implementar lógica de agendamento de manutenção
             Realizado = true;
             return true;
         }
@@ -59,7 +50,11 @@ public class ServicoManutencao
         }
     }
 
-    // Add more methods and properties as needed
-
+    // Adicione mais métodos e propriedades conforme necessário
+    public void RealizarManutencao(Componente componente)
+    {
+        componente.RealizarManutencao();
+        // TODO: Implementar lógica de realização de manutenção no serviço
+    }
     #endregion
 }
