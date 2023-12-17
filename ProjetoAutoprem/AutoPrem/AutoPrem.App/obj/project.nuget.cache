@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "pzDas0GNWFBT1+sEi8eZWmEAVrLf+siOzBy+Kl0iFPvHSZvkaA+ogo9dGVp1BqCeQwAOm5aoYLWsO/OIpimQyg==",
+  "success": true,
+  "projectFilePath": "/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem.App/AutoPrem.App.csproj",
+  "expectedPackageFiles": [
+    "/Users/tomassilva/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/Users/tomassilva/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,10 +1,13 @@
 ﻿// AutoPrem.App/Program.cs
+using System;
+using AutoPrem.Core;
+using AutoPrem.Core.Services;
 
 class Program
 {
     static void Main()
     {
-        // Ponto de entrada para o projeto AutoPrem
+        IIOService ioService = new ConsoleIOService();
 
         // Exemplo de utilização das classes e serviços implementados
         Veiculo veiculo = new Carro(1);
@@ -16,18 +19,16 @@ class Program
         carro.Ligar();
         moto.Ligar();
 
-        System.Console.Clear();
+        ioService.Clear();
 
         veiculo.Desligar();
         carro.Desligar();
         moto.Desligar();
 
-        System.Console.Clear();
+        ioService.Clear();
 
-        ServicoManutencaoService servicoManutencaoService = new ServicoManutencaoService();
-
-        ServicoManutencao servico = new ServicoManutencao(System.DateTime.Now, "Manutenção de rotina");
-        servicoManutencaoService.RealizarManutencao(servico, new ComponenteEspecifico());
+        ServicoManutencao servico = new ServicoManutencao(DateTime.Now, "Manutenção de rotina");
+        servico.RealizarManutencao(new ComponenteEspecifico());
 
         funcionario.RealizarTarefa(new ComponenteEspecifico());
 

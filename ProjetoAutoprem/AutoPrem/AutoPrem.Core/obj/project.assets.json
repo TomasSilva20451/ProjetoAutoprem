@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "AutoPrem.Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/AutoPrem.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AutoPrem.Core.dll": {}
-        }
-      }
-    }
+    "net7.0": {}
   },
-  "libraries": {
-    "AutoPrem.Core/1.0.0": {
-      "type": "project",
-      "path": "../AutoPrem.Core/AutoPrem.Core.csproj",
-      "msbuildProject": "../AutoPrem.Core/AutoPrem.Core.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "AutoPrem.Core >= 1.0.0"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
     "/Users/tomassilva/.nuget/packages/": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem/AutoPrem.csproj",
-      "projectName": "AutoPrem",
-      "projectPath": "/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem/AutoPrem.csproj",
+      "projectUniqueName": "/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem.Core/AutoPrem.Core.csproj",
+      "projectName": "AutoPrem.Core",
+      "projectPath": "/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem.Core/AutoPrem.Core.csproj",
       "packagesPath": "/Users/tomassilva/.nuget/packages/",
-      "outputPath": "/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem/obj/",
+      "outputPath": "/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem.Core/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/tomassilva/.nuget/NuGet/NuGet.Config"
@@ -51,11 +32,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem.Core/AutoPrem.Core.csproj": {
-              "projectPath": "/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem.Core/AutoPrem.Core.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
