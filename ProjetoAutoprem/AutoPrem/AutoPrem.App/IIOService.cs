@@ -10,8 +10,22 @@
 
 public interface IIOService
 {
+    /// <summary>
+    /// Escreve uma mensagem na saída.
+    /// </summary>
+    /// <param name="message">Mensagem a ser escrita.</param>
     void WriteLine(string message);
+
+    /// <summary>
+    /// Lê uma linha da entrada.
+    /// </summary>
+    /// <returns>A linha lida ou uma string vazia se não houver entrada.</returns>
     string ReadLine();
+
+    /// <summary>
+    /// Limpa a saída.
+    /// </summary>
     void Clear();
+
     // Adicione mais métodos conforme necessário
 }

@@ -14,6 +14,10 @@ public class Moto : Veiculo
 {
     #region Construtores
 
+    /// <summary>
+    /// Construtor da classe Moto.
+    /// </summary>
+    /// <param name="id">Identificador da moto.</param>
     public Moto(int id) : base(id)
     {
         // TODO: Inicializar atributos específicos de Moto no construtor
@@ -23,18 +27,28 @@ public class Moto : Veiculo
 
     #region Métodos
 
+    /// <summary>
+    /// Liga a moto.
+    /// </summary>
     public override void Ligar()
     {
         base.Ligar();
         Console.WriteLine($"A moto {ID} está ligada.");
     }
 
+    /// <summary>
+    /// Desliga a moto.
+    /// </summary>
     public override void Desligar()
     {
         base.Desligar();
         Console.WriteLine($"A moto {ID} está desligada.");
     }
 
+    /// <summary>
+    /// Realiza a manutenção da moto.
+    /// </summary>
+    /// <returns>True se a manutenção foi realizada com sucesso; false, caso contrário.</returns>
     public bool RealizarManutencaoMoto()
     {
         if (!EstaEmManutencao)

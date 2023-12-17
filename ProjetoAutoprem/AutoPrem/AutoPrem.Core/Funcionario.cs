@@ -20,6 +20,10 @@ public class Funcionario
 
     #region Construtores
 
+    /// <summary>
+    /// Construtor da classe Funcionario.
+    /// </summary>
+    /// <param name="nome">Nome do funcionário.</param>
     public Funcionario(string nome)
     {
         Nome = nome;
@@ -30,6 +34,11 @@ public class Funcionario
 
     #region Métodos
 
+    /// <summary>
+    /// Realiza uma tarefa utilizando o componente.
+    /// </summary>
+    /// <param name="componente">Componente a ser utilizado na tarefa.</param>
+    /// <returns>True se a tarefa foi realizada com sucesso; false, caso contrário.</returns>
     public bool RealizarTarefa(Componente componente)
     {
         Console.WriteLine($"{Nome} está realizando uma tarefa.");

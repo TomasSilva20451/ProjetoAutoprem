@@ -10,17 +10,27 @@
 
 public class ComponenteEspecifico : Componente
 {
-    #region Métodos
+    #region Métodos Overrides
 
+    /// <summary>
+    /// Realiza a manutenção específica do componente.
+    /// </summary>
     public override void RealizarManutencao()
     {
         // TODO: Implementar a lógica específica de manutenção
     }
 
+    /// <summary>
+    /// Substitui o componente específico por um novo.
+    /// </summary>
     public override void Substituir()
     {
         // TODO: Implementar a lógica específica de substituição
     }
+
+    #endregion
+
+    #region Outros Métodos e Propriedades
 
     // Adicione mais métodos e propriedades conforme necessário
 

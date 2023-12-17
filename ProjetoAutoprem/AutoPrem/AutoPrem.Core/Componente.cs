@@ -10,11 +10,21 @@
 
 public abstract class Componente
 {
-    #region Métodos
+    #region Métodos Abstratos
 
+    /// <summary>
+    /// Realiza a manutenção do componente.
+    /// </summary>
     public abstract void RealizarManutencao();
 
+    /// <summary>
+    /// Substitui o componente por um novo.
+    /// </summary>
     public abstract void Substituir();
+
+    #endregion
+
+    #region Outros Métodos e Propriedades
 
     // Adicione mais métodos e propriedades conforme necessário
 

@@ -21,17 +21,25 @@ public class Veiculo
 
     #region Construtores
 
+    /// <summary>
+    /// Construtor da classe Veiculo.
+    /// </summary>
+    /// <param name="id">Identificador único do veículo.</param>
     public Veiculo(int id)
     {
         ID = id;
         EstaEmManutencao = false;
-        // TODO: Inicializar outros atributos no construtor
+        // TODO: Inicializar outros atributos no construtor, se necessário
     }
 
     #endregion
 
     #region Métodos
 
+    /// <summary>
+    /// Realiza a manutenção do veículo, se não estiver em manutenção.
+    /// </summary>
+    /// <returns>True se a manutenção foi realizada com sucesso; False se o veículo já está em manutenção.</returns>
     public bool RealizarManutencao()
     {
         if (!EstaEmManutencao)
@@ -48,11 +56,17 @@ public class Veiculo
         }
     }
 
+    /// <summary>
+    /// Liga o veículo.
+    /// </summary>
     public virtual void Ligar()
     {
         Console.WriteLine($"O veículo {ID} está ligado.");
     }
 
+    /// <summary>
+    /// Desliga o veículo.
+    /// </summary>
     public virtual void Desligar()
     {
         Console.WriteLine($"O veículo {ID} está desligado.");

@@ -21,7 +21,7 @@ public class Carro : Veiculo
 
     #endregion
 
-    #region Métodos
+    #region Overrides de Veiculo
 
     public override void Ligar()
     {
@@ -34,6 +34,10 @@ public class Carro : Veiculo
         base.Desligar();
         Console.WriteLine($"O carro {ID} está desligado.");
     }
+
+    #endregion
+
+    #region Métodos Específicos de Carro
 
     public bool RealizarManutencaoCarro()
     {

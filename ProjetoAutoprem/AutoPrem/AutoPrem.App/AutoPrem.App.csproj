@@ -13,9 +13,6 @@
     <Reference Include="AutoPrem.Core">
       <HintPath>..\AutoPrem.Core\bin\Debug\net7.0\AutoPrem.Core.dll</HintPath>
     </Reference>
-    <Reference Include="AutoPrem.Services">
-      <HintPath>..\AutoPrem.Services\bin\Debug\net7.0\AutoPrem.Services.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
