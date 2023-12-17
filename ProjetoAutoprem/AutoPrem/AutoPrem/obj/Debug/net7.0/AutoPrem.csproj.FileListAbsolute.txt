@@ -1,0 +1,15 @@
+/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem/obj/Debug/net7.0/AutoPrem.csproj.AssemblyReference.cache
+/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem/obj/Debug/net7.0/AutoPrem.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem/obj/Debug/net7.0/AutoPrem.AssemblyInfoInputs.cache
+/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem/obj/Debug/net7.0/AutoPrem.AssemblyInfo.cs
+/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem/obj/Debug/net7.0/AutoPrem.csproj.CoreCompileInputs.cache
+/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem/bin/Debug/net7.0/AutoPrem
+/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem/bin/Debug/net7.0/AutoPrem.deps.json
+/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem/bin/Debug/net7.0/AutoPrem.runtimeconfig.json
+/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem/bin/Debug/net7.0/AutoPrem.dll
+/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem/bin/Debug/net7.0/AutoPrem.pdb
+/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem/obj/Debug/net7.0/AutoPrem.dll
+/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem/obj/Debug/net7.0/refint/AutoPrem.dll
+/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem/obj/Debug/net7.0/AutoPrem.pdb
+/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem/obj/Debug/net7.0/AutoPrem.genruntimeconfig.cache
+/Users/tomassilva/Desktop/POO/trabalhos/ProjetoAutoprem/AutoPrem/AutoPrem/obj/Debug/net7.0/ref/AutoPrem.dll
